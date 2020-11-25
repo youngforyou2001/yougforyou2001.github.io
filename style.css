@@ -1,1 +1,33 @@
+div {
+    width: 200px;
+    height: 54px;
+    background-color: #030303;
+/*     background-image: url(images/logo.png); */
+    background-repeat: no-repeat;
+}
+h3 {
+    height: 41px;
+    width: 118px;
+    font-weight: 400;
+    background-color: pink;
+/*     background-image: url(images/title.png); */
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    line-height: 41px;
+    text-indent: 1.5em;
+}
+body {
+    /* background-image: url(images/beijin.jpg);
+    background-repeat: no-repeat;
+    background-position: center 55px;
+    background-attachment: fixed; 
+    background-color:black*/
 
+    /* 背景设置复合写法(类似font的复合) */
+
+    background: black url(images/beijin.jpg) no-repeat fixed center top;
+    height: 100%;
+    color:white;
+    font-size: 20px;
+}
